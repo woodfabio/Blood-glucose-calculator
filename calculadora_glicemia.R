@@ -78,6 +78,3 @@ jem <- mean(c((ta[2,]-tcp[1,ncol(tcp)]))) # jejum
 ## calcular quantidade de glicose em cada amostra (alimentado e jejum):
 ga <- qgc(alm, fcm, 10, 0.02)
 gj <- qgc(jem, fcm, 10, 0.02)
-
-ga2 <- qgc(alm, fcm2, 10, 0.02)
-gj2 <- qgc(jem, fcm2, 10, 0.02)
